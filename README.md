@@ -15,13 +15,13 @@ Contenido
 ### Módulo I - Introducción
 1.  Bienvenida
 2.  Conceptos básicos de Javascript
-        1.  Qué es Javascript
-        2.  Sintaxis básica
-        3.  Operadores
-        4.  Condicionales
-        5.  Ciclos
-        6.  Arreglos (array)
-        7.  Funciones
+    1.  Qué es Javascript
+    2.  Sintaxis básica
+    3.  Operadores
+    4.  Condicionales
+    5.  Ciclos
+    6.  Arreglos (array)
+    7.  Funciones
 
 ### Módulo II - Introducción y conceptos de jQuery
 1.  Qué es jQuery
