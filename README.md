@@ -12,7 +12,7 @@ Conocer los conceptos básicos de la librería jQuery, para crear sitios web int
 Contenido
 -----------------
 
-Módulo I - Introducción
-+ Bienvenida
-+ Conceptos básicos de Javascript
--- Qué es Javascript
+### Módulo I - Introducción
+1.  Bienvenida
+2.  Conceptos básicos de Javascript
+        Qué es Javascript
