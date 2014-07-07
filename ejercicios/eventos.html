@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!--[if IE 7]>         <html lang="es" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="es" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="es" class="no-js"> <!--<![endif]-->
+<head>
+  <meta charset="UTF-8">
+  <title>Curso Introducción a jQuery - Eventos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link rel="stylesheet" href="css/style.css" media="screen">
+  <!-- IE Fix for HTML5 Tags -->
+  <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="span12">
+        <h1>Curso Introducción a jQuery - Eventos</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="span12">
+        <ol>
+          <li>Vincular un evento <i>focus</i> sobre el <i>input</i> para mostrar el <i>span</i> de ayuda que tiene la clase <i>help</i>.</li>
+          <li>Vincular un evento <i>blur</i> sobre el <i>input</i> para oculpa el <i>span</i> de ayuda que tiene la clase <i>help</i>.</li>
+          <li>Vincular un evento <i>click</i> sobre el botón <i>Enviar</i> que capture la información que lleva el <i>input</i>. <strong>Ayuda:</strong> ($.fn.val)</li>
+          <li>La información del <i>input</i> debe ser mostrada reemplazando la palabra <i>mundo</i>. <strong>Ayuda:</strong> ($.fn.text)</li>
+        </ol>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="span4">
+        <p class="lead">
+          Hola <strong class="hello">mundo</strong>!
+        </p>
+      </div>
+      <div class="span6">
+        <div class="form-horizontal">
+          <div class="control-group">
+            <label class="control-label" for="name">Ingresa tu nombre</label>
+            <div class="controls">
+              <input class="user-name" type="text">
+              <span class="help-block help hide">Lorem ipsum</span>
+            </div>
+          </div>
+          <div class="control-group">
+            <div class="controls">
+              <button class="btn btn-primary btn-send" type="button">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="span12">
+        <h3>Agregar navegación por pertañas</h3>
+        <ol>
+          <li>Ocultar los elementos de contenido de cada pestaña, menos el primero</li>
+          <li>Vincular un evento click a cada ítem de la lista de forma que:
+            <ul>
+              <li>Muestre el div correspondiente y oculte el otro</li>
+              <li>Añada la clase <i>active</i> al ítem <i>li</i> padre</li>
+              <li>Elimine la clase <i>active</i> del otro ítem de la lista</li>
+            </ul>
+          </li>
+        </ol>
+        <br>
+        <ul class="nav-tabs nav ">
+          <li><a href="#tab1">Lista 1</a></li>
+          <li><a href="#tab2">Lista 2</a></li>
+          <li><a href="#tab3">Lista 3</a></li>
+        </ul>
+        <div class="tabs-content">
+          <div class="tab active" id="tab1">
+            Tab 1
+          </div>
+          <div class="tab " id="tab2">
+            Tab 2
+          </div>
+          <div class="tab" id="tab3">
+            Tab 3
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
+  <script src="js/eventos.js"></script>
+</body>
+</html>
